@@ -1,0 +1,47 @@
+
+
+img {
+    max-width: 15%;
+    height: auto;
+    max-height: fit-content;
+    border-radius: 30px;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5%;
+    background-color: darkcyan;
+    color: #fff;
+}
+
+h1 {
+    font-size: 40px;
+    padding-left: 60px;
+}
+
+body {
+    margin: 0 auto;
+    padding: 0%;
+}
+
+.sidebar {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    float: left;
+    width: 200px;
+    font-size: 25px;
+    height: 100%;
+    position: fixed;
+}
+
+article {
+    margin-left: 200px;
+    font-size: 25px;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    line-height: 35px;
+}
