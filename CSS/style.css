@@ -21,7 +21,7 @@ header {
     height: 100px;
 }
 
-/* Need to correct fitting the image under the header */
+
 #panorama {
     display: block;
     height: 100px;
@@ -33,18 +33,15 @@ h1 {
     margin-left: 13%;
 }
 
+#Portfolio {
+    justify-content: center;
+}
+
 body {
     margin: 0 auto;
     padding: 0%;
 }
 
-/* .sidebar {
-    background-color: rgb(0, 0, 0);
-    float: left;
-    width: 230px;
-    font-size: 25px;
-    min-height: 100%; 
-} */
 
 nav ul {
     display: flex;
@@ -72,4 +69,18 @@ nav ul li a {
 
 p {
     font-size: 1.6rem;
+}
+
+.linked_images {
+    display: flex;
+    justify-content: center ;
+}
+
+.card {
+    padding: 10px;
+}
+
+footer {
+    display: flex;
+    justify-content: center ;
 }
